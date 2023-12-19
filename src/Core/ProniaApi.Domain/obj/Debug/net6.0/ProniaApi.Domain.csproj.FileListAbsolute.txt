@@ -1,0 +1,12 @@
+C:\Users\ACER\source\repos\ProniaApi\src\Core\ProniaApi.Domain\bin\Debug\net6.0\ProniaApi.Domain.deps.json
+C:\Users\ACER\source\repos\ProniaApi\src\Core\ProniaApi.Domain\bin\Debug\net6.0\ProniaApi.Domain.dll
+C:\Users\ACER\source\repos\ProniaApi\src\Core\ProniaApi.Domain\bin\Debug\net6.0\ProniaApi.Domain.pdb
+C:\Users\ACER\source\repos\ProniaApi\src\Core\ProniaApi.Domain\obj\Debug\net6.0\ProniaApi.Domain.csproj.AssemblyReference.cache
+C:\Users\ACER\source\repos\ProniaApi\src\Core\ProniaApi.Domain\obj\Debug\net6.0\ProniaApi.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ACER\source\repos\ProniaApi\src\Core\ProniaApi.Domain\obj\Debug\net6.0\ProniaApi.Domain.AssemblyInfoInputs.cache
+C:\Users\ACER\source\repos\ProniaApi\src\Core\ProniaApi.Domain\obj\Debug\net6.0\ProniaApi.Domain.AssemblyInfo.cs
+C:\Users\ACER\source\repos\ProniaApi\src\Core\ProniaApi.Domain\obj\Debug\net6.0\ProniaApi.Domain.csproj.CoreCompileInputs.cache
+C:\Users\ACER\source\repos\ProniaApi\src\Core\ProniaApi.Domain\obj\Debug\net6.0\ProniaApi.Domain.dll
+C:\Users\ACER\source\repos\ProniaApi\src\Core\ProniaApi.Domain\obj\Debug\net6.0\refint\ProniaApi.Domain.dll
+C:\Users\ACER\source\repos\ProniaApi\src\Core\ProniaApi.Domain\obj\Debug\net6.0\ProniaApi.Domain.pdb
+C:\Users\ACER\source\repos\ProniaApi\src\Core\ProniaApi.Domain\obj\Debug\net6.0\ref\ProniaApi.Domain.dll

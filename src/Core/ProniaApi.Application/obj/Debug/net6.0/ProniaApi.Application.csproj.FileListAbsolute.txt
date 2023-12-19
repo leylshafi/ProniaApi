@@ -1,0 +1,15 @@
+C:\Users\ACER\source\repos\ProniaApi\src\Core\ProniaApi.Application\bin\Debug\net6.0\ProniaApi.Application.deps.json
+C:\Users\ACER\source\repos\ProniaApi\src\Core\ProniaApi.Application\bin\Debug\net6.0\ProniaApi.Application.dll
+C:\Users\ACER\source\repos\ProniaApi\src\Core\ProniaApi.Application\bin\Debug\net6.0\ProniaApi.Application.pdb
+C:\Users\ACER\source\repos\ProniaApi\src\Core\ProniaApi.Application\bin\Debug\net6.0\ProniaApi.Domain.dll
+C:\Users\ACER\source\repos\ProniaApi\src\Core\ProniaApi.Application\bin\Debug\net6.0\ProniaApi.Domain.pdb
+C:\Users\ACER\source\repos\ProniaApi\src\Core\ProniaApi.Application\obj\Debug\net6.0\ProniaApi.Application.csproj.AssemblyReference.cache
+C:\Users\ACER\source\repos\ProniaApi\src\Core\ProniaApi.Application\obj\Debug\net6.0\ProniaApi.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ACER\source\repos\ProniaApi\src\Core\ProniaApi.Application\obj\Debug\net6.0\ProniaApi.Application.AssemblyInfoInputs.cache
+C:\Users\ACER\source\repos\ProniaApi\src\Core\ProniaApi.Application\obj\Debug\net6.0\ProniaApi.Application.AssemblyInfo.cs
+C:\Users\ACER\source\repos\ProniaApi\src\Core\ProniaApi.Application\obj\Debug\net6.0\ProniaApi.Application.csproj.CoreCompileInputs.cache
+C:\Users\ACER\source\repos\ProniaApi\src\Core\ProniaApi.Application\obj\Debug\net6.0\ProniaApi.Application.csproj.CopyComplete
+C:\Users\ACER\source\repos\ProniaApi\src\Core\ProniaApi.Application\obj\Debug\net6.0\ProniaApi.Application.dll
+C:\Users\ACER\source\repos\ProniaApi\src\Core\ProniaApi.Application\obj\Debug\net6.0\refint\ProniaApi.Application.dll
+C:\Users\ACER\source\repos\ProniaApi\src\Core\ProniaApi.Application\obj\Debug\net6.0\ProniaApi.Application.pdb
+C:\Users\ACER\source\repos\ProniaApi\src\Core\ProniaApi.Application\obj\Debug\net6.0\ref\ProniaApi.Application.dll
