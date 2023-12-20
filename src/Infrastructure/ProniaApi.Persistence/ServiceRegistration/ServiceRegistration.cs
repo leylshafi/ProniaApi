@@ -15,7 +15,9 @@ namespace ProniaApi.Persistence.ServiceRegistration
 		{
 			services.AddDbContext<AppDbContext>(o => o.UseSqlServer(configuration.GetConnectionString("Default")));
 			services.AddScoped<ICategoryService, CategoryService>();
+			services.AddScoped<ITagService, TagService>();
 			services.AddScoped<ICategoryRepository, CategoryRepository>();
+			services.AddScoped<ITagRepository, TagRepository>();
 			return services;
 		}
 	}
