@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "LkXJYtkROTE0QPmez+1Tz2U7sdx0EG0k8GEHBtQfShx8iZdQETxJQOF+qRS75ClSLn/5t7eYsOOlsqehMTiWMw==",
+  "dgSpecHash": "c2pBaiFGsL9bLWL+gN5t1aNxUf9Ce/oMvb2kLgMXnXtES7KU4Whs3mD6HJuZe7ant51sCcTqTHXkIYvn6OA4IQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ACER\\source\\repos\\ProniaApi\\src\\Core\\ProniaApi.Domain\\ProniaApi.Domain.csproj",
+  "projectFilePath": "C:\\Users\\ACER\\Desktop\\ProniaApi\\src\\Core\\ProniaApi.Domain\\ProniaApi.Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ACER\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.16\\microsoft.windowsdesktop.app.ref.6.0.16.nupkg.sha512",
     "C:\\Users\\ACER\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.16\\microsoft.netcore.app.ref.6.0.16.nupkg.sha512",
