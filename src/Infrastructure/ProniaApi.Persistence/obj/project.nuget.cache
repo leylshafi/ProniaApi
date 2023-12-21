@@ -1,11 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "FUoNGIMoKJfXbWJYmAViZRmnOrP0hzY/Y9z3ynSv7PINGZd9PX8AaOux5F2ZWP49UrTgQr3dbwLkBxmQaY1pDg==",
+  "dgSpecHash": "1ulsFbXDDeWLvquT295g9F3AAifMHutzePn23RTIszqD3rBPeTEH6eF4U/2/EXOQiGgX/4WDPhh77owHNTv4Rg==",
   "success": true,
   "projectFilePath": "C:\\Users\\ACER\\Desktop\\ProniaApi\\src\\Infrastructure\\ProniaApi.Persistence\\ProniaApi.Persistence.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ACER\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\ACER\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
+    "C:\\Users\\ACER\\.nuget\\packages\\fluentvalidation\\11.9.0\\fluentvalidation.11.9.0.nupkg.sha512",
+    "C:\\Users\\ACER\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.3.0\\fluentvalidation.aspnetcore.11.3.0.nupkg.sha512",
+    "C:\\Users\\ACER\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.9.0\\fluentvalidation.dependencyinjectionextensions.11.9.0.nupkg.sha512",
     "C:\\Users\\ACER\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\ACER\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\ACER\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",

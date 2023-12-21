@@ -10,7 +10,6 @@
 
         public BaseEntity()
         {
-            CreatedAt= DateTime.Now;
             CreatedBy = "leyla.shafi";
         }
     }

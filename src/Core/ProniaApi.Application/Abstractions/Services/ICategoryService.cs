@@ -9,5 +9,6 @@ namespace ProniaApi.Application.Abstractions.Services
 		Task CreateAsync(CreateCategoryDto categoryDto);
 		Task UpdateAsync(int id, UpdateCategoryDto categoryDto);
 		Task DeleteAsync(int id);
+		Task SoftDeleteAsync(int id);
 	}
 }

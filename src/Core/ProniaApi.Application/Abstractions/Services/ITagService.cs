@@ -9,5 +9,6 @@ namespace ProniaApi.Application.Abstractions.Services
 		Task CreateAsync(CreateTagDto tagDto);
 		Task UpdateAsync(int id, UpdateTagDto tagDto);
 		Task DeleteAsync(int id);
+		Task SoftDeleteAsync(int id);
 	}
 }

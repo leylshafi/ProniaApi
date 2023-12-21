@@ -9,12 +9,14 @@ namespace ProniaApi.Application.Abstractions.Repositories
             bool isDesc = false,
             int skip = 0,
             int take = 0, bool isTracking = true,
+            bool isDeleted = false, 
             params string[] includes);
 
         Task<T> GetByIdAsync(int id);
         Task AddAsync(T item);
         void Update(T item);
         void Delete(T item);
+        void SoftDelete(T item);
         Task SaveChangesAsync();
     }
 }

@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using ProniaApi.Domain.Entities;
+using ProniaApi.Domain.Entities.Common;
 using System.Reflection;
 
 namespace ProniaApi.Persistence.Data
@@ -18,8 +19,30 @@ namespace ProniaApi.Persistence.Data
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            modelBuilder.Entity<Category>().HasQueryFilter(c => c.IsDeleted == false);
+            modelBuilder.Entity<Tag>().HasQueryFilter(c => c.IsDeleted == false);
             modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
             base.OnModelCreating(modelBuilder);
         }
-    }
+
+		public override Task<int> SaveChangesAsync(CancellationToken cancellationToken = default)
+		{
+            var entites = ChangeTracker.Entries<BaseEntity>();
+            foreach (var data in entites)
+            {
+                switch (data.State)
+                {
+                    case EntityState.Modified:
+                        data.Entity.UpdatedAt = DateTime.UtcNow;
+                        break;
+                    case EntityState.Added:
+                        data.Entity.CreatedAt= DateTime.UtcNow;
+                        break;
+                    default:
+                        break;
+                }
+            }
+			return base.SaveChangesAsync(cancellationToken);
+		}
+	}
 }

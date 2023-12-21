@@ -35,7 +35,7 @@ namespace ProniaApi.Persistence.Implementations.Services
 
 		public async Task<ICollection<GetCategoryDto>> GetAllAsync(int page, int take)
 		{
-			var categories = await _repository.GetAllAsync(skip: (page - 1) * take, take: take, isTracking: false).ToListAsync();
+			var categories = await _repository.GetAllAsync(skip: (page - 1) * take, take: take, isTracking: false,isDeleted:true).ToListAsync();
 			var result = _mapper.Map<ICollection<GetCategoryDto>>(categories);
 			return result;
 		}
@@ -46,6 +46,14 @@ namespace ProniaApi.Persistence.Implementations.Services
 			Category category = await _repository.GetByIdAsync(id);
 			if (category is null) throw new Exception("Not found");
 			return new GetCategoryDto(category.Id, category.Name);
+		}
+
+		public async Task SoftDeleteAsync(int id)
+		{
+			Category category = await _repository.GetByIdAsync(id);
+			if (category is null) throw new Exception("Not found");
+			_repository.SoftDelete(category);
+			await _repository.SaveChangesAsync();
 		}
 
 		public async Task UpdateAsync(int id, UpdateCategoryDto categoryDto)

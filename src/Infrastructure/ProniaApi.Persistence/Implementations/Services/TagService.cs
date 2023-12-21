@@ -37,9 +37,19 @@ namespace ProniaApi.Persistence.Implementations.Services
 			return result;
 		}
 
-		public Task<GetTagDto> GetAsync(int id)
+		public async Task<GetTagDto> GetAsync(int id)
 		{
-			throw new NotImplementedException();
+			Tag tag = await _repository.GetByIdAsync(id);
+			if (tag is null) throw new Exception("Not found");
+			return new GetTagDto(tag.Id, tag.Name);
+		}
+
+		public async Task SoftDeleteAsync(int id)
+		{
+			Tag tag = await _repository.GetByIdAsync(id);
+			if (tag is null) throw new Exception("Not found");
+			_repository.SoftDelete(tag);
+			await _repository.SaveChangesAsync();
 		}
 
 		public async Task UpdateAsync(int id, UpdateTagDto tagDto)

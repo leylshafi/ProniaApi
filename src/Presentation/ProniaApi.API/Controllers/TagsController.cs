@@ -1,7 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using ProniaApi.Application.Abstractions.Services;
-using ProniaApi.Application.DTOs.Category;
 using ProniaApi.Application.DTOs.Tag;
 
 namespace ProniaApi.API.Controllers
@@ -47,7 +45,7 @@ namespace ProniaApi.API.Controllers
 		public async Task<IActionResult> Delete(int id)
 		{
 			if (id <= 0) return StatusCode(StatusCodes.Status400BadRequest);
-			await _service.DeleteAsync(id);
+			await _service.SoftDeleteAsync(id);
 			return NoContent();
 		}
 	}
