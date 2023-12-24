@@ -1,6 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using ProniaApi.Domain.Entities;
 using ProniaApi.Domain.Entities.Common;
+using ProniaApi.Persistence.Common;
 using System.Reflection;
 
 namespace ProniaApi.Persistence.Data
@@ -19,8 +20,7 @@ namespace ProniaApi.Persistence.Data
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<Category>().HasQueryFilter(c => c.IsDeleted == false);
-            modelBuilder.Entity<Tag>().HasQueryFilter(c => c.IsDeleted == false);
+            modelBuilder.ApplyQueryFilters();
             modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
             base.OnModelCreating(modelBuilder);
         }

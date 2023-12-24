@@ -4,7 +4,6 @@ using ProniaApi.Application.Abstractions.Repositories;
 using ProniaApi.Application.Abstractions.Services;
 using ProniaApi.Application.DTOs.Category;
 using ProniaApi.Domain.Entities;
-using System.Collections.Generic;
 
 namespace ProniaApi.Persistence.Implementations.Services
 {
@@ -35,7 +34,7 @@ namespace ProniaApi.Persistence.Implementations.Services
 
 		public async Task<ICollection<GetCategoryDto>> GetAllAsync(int page, int take)
 		{
-			var categories = await _repository.GetAllAsync(skip: (page - 1) * take, take: take, isTracking: false,isDeleted:true).ToListAsync();
+			var categories = await _repository.GetAllWhere(skip: (page - 1) * take, take: take, isTracking: false,ignoreQuery:true).ToListAsync();
 			var result = _mapper.Map<ICollection<GetCategoryDto>>(categories);
 			return result;
 		}

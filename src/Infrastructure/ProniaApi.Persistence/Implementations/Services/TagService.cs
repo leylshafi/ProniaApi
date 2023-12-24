@@ -32,7 +32,7 @@ namespace ProniaApi.Persistence.Implementations.Services
 
 		public async Task<ICollection<GetTagDto>> GetAllAsync(int page, int take)
 		{
-			var tags = await _repository.GetAllAsync(skip: (page - 1) * take, take: take, isTracking: false).ToListAsync();
+			var tags = await _repository.GetAllWhere(skip: (page - 1) * take, take: take, isTracking: false).ToListAsync();
 			var result = _mapper.Map<ICollection<GetTagDto>>(tags);
 			return result;
 		}
