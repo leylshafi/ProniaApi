@@ -3,9 +3,9 @@ using ProniaApi.Application.DTOs.Product;
 
 namespace ProniaApi.Application.Validators
 {
-	internal class CreateProductDtoValidator:AbstractValidator<CreateProductDto>
+	public class UpdateProductDtoValidator:AbstractValidator<ProductUpdateDto>
 	{
-		public CreateProductDtoValidator()
+		public UpdateProductDtoValidator()
 		{
 			RuleFor(p => p.Name).NotEmpty().WithMessage("Can not be empty").MaximumLength(50).MinimumLength(2);
 			RuleFor(p => p.SKU).NotEmpty().MaximumLength(10);
