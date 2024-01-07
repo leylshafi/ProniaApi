@@ -15,6 +15,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\Infrastructure\ProniaApi.Infrastructure\ProniaApi.Infrastructure.csproj" />
     <ProjectReference Include="..\..\Infrastructure\ProniaApi.Persistence\ProniaApi.Persistence.csproj" />
   </ItemGroup>
 

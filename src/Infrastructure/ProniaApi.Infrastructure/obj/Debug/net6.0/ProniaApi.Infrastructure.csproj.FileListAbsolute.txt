@@ -10,3 +10,8 @@ C:\Users\ACER\Desktop\ProniaApi\src\Infrastructure\ProniaApi.Infrastructure\obj\
 C:\Users\ACER\Desktop\ProniaApi\src\Infrastructure\ProniaApi.Infrastructure\obj\Debug\net6.0\refint\ProniaApi.Infrastructure.dll
 C:\Users\ACER\Desktop\ProniaApi\src\Infrastructure\ProniaApi.Infrastructure\obj\Debug\net6.0\ProniaApi.Infrastructure.pdb
 C:\Users\ACER\Desktop\ProniaApi\src\Infrastructure\ProniaApi.Infrastructure\obj\Debug\net6.0\ref\ProniaApi.Infrastructure.dll
+C:\Users\ACER\Desktop\ProniaApi\src\Infrastructure\ProniaApi.Infrastructure\bin\Debug\net6.0\ProniaApi.Application.dll
+C:\Users\ACER\Desktop\ProniaApi\src\Infrastructure\ProniaApi.Infrastructure\bin\Debug\net6.0\ProniaApi.Domain.dll
+C:\Users\ACER\Desktop\ProniaApi\src\Infrastructure\ProniaApi.Infrastructure\bin\Debug\net6.0\ProniaApi.Application.pdb
+C:\Users\ACER\Desktop\ProniaApi\src\Infrastructure\ProniaApi.Infrastructure\bin\Debug\net6.0\ProniaApi.Domain.pdb
+C:\Users\ACER\Desktop\ProniaApi\src\Infrastructure\ProniaApi.Infrastructure\obj\Debug\net6.0\ProniaApi.Infrastructure.csproj.CopyComplete

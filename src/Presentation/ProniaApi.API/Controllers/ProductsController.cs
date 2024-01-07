@@ -1,13 +1,13 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using ProniaApi.Application.Abstractions.Services;
-using ProniaApi.Application.DTOs.Category;
 using ProniaApi.Application.DTOs.Product;
 
 namespace ProniaApi.API.Controllers
 {
 	[Route("api/[controller]")]
 	[ApiController]
+	[Authorize]
 	public class ProductsController : ControllerBase
 	{
 		private readonly IProductService _service;
@@ -23,6 +23,7 @@ namespace ProniaApi.API.Controllers
 			return Ok(await _service.GetAllPaginated(page, take));
 		}
 		[HttpGet("{id}")]
+		[Authorize(Roles ="Admin")]
 		public async Task<IActionResult> Get(int id)
 		{
 			return Ok(await _service.GetByIsAsync(id));
